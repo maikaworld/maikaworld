@@ -1,0 +1,37 @@
+@media (min-width: 1201px) {
+
+.containerAbout-meImage {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Align height */
+}
+.about-meText {
+    padding-left: 5%;
+    width: 40%;
+}
+.about-meImage {
+    margin-left: 2.5%;
+    width: 50%;
+    background-image: url('../assets/img/LibreConLibros.jpg');
+    background-repeat: no-repeat;
+    background-size: contain; /* Make the image cover the div */
+    background-position: 60% /* Center the image inside the div */ 
+}
+}
+
+@media (max-width: 1200px) {
+
+    
+    .about-meText {
+        width: 90%;
+        margin: auto !important;
+    }
+    .about-meImage {
+        margin-left: 10%;
+        width: 80%;
+        height: 700px;
+        background-image: url('../assets/img/LibreConLibros.jpg');
+        background-repeat: no-repeat;
+        background-size: contain; /* Make the image cover the div */
+        background-position: 60% /* Center the image inside the div */ 
+    }}

@@ -2,2224 +2,930 @@
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Maika G. Montava">
-
-    <title>Maika G. Montava - Ilustradora infantil</title>
-    <!-- Loading progress bar-->
-    <script src="js/pace.min.js"></script>
-    <link href="css/pace-theme-flat-top.css" rel="stylesheet">
-    <!-- End of Loading progress bar-->
-
-
-
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/modernizr.2.5.3.min.js"></script>
-
-    <!-- Bootstrap and other CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-
-    <!-- For the gallery -->
-    <link href="css/layout.css" rel="stylesheet">
-    <!-- For the gallery -->
-    <!-- Custom CSS -->
-    <link href="css/custom.css" rel="stylesheet">
-
-
-
-    <!-- Custom styles for this template -->
-    <style>
-        body {
-            padding-top: 54px;
-        }
-
-        @media (min-width: 992px) {
-            body {
-                padding-top: 56px;
-            }
-        }
-
-    </style>
-    <script>
-        $(function() {
-            $(document).scroll(function() {
-                var $nav = $(".navbar");
-                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-                $('body').scrollspy({
-                    target: '#menu'
-                });
-
-            });
-
-        });
-
-    </script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Maika G. Montava - Ilustradora infantil" />
+    <meta name="author" content="Maika G. Montava" />
+    <title>Maika G. Montava</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Othe CSS-->
+    <link href="css/about-me.css" rel="stylesheet" />
+    <link href="css/contactcard.css" rel="stylesheet" />
+    <link href="css/lightbox.min.css" rel="stylesheet" />
 
 </head>
 
-<body>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" style="background-color: white;" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#page-top">
+                <img src="assets/maikaworld.png" alt="maikaworld" height="60px" />
+            </a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-black rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-black"
+                            href="#portfolio">Portfalio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-black"
+                            href="#publications">Publicaciones</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-black"
+                            href="#about">Sobre mi</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded text-black"
+                            href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/avatar.png" alt="avatar" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Maika G. Montava</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Ilustradora infantil</p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
 
-    <!-- Navigation -->
-    <div id="menu">
+                <!-- Portfolio Item 1-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/scarecrow.jpg"
+                        data-title="Espantapájaros">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/scarecrow.jpg" alt="Espantapájaros" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria"
+                        href="assets/img/portfolio/flautistahamelin.jpg" data-title="El flautista de Hamelin">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/flautistahamelin.jpg"
+                            alt="El flautista de Hamelin" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/wish.jpg"
+                        data-title="Deseo">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/wish.jpg" alt="Deseo" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria"
+                        href="assets/img/portfolio/MarmotaMapache.jpg" data-title="Marmota y mapache">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/MarmotaMapache.jpg"
+                            alt="Marmota y mapache" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/leon.jpg"
+                        data-title="Leon">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/leon.jpg" alt="Leon" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 6-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/kiriko.jpg"
+                        data-title="El gallo kiriko">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/kiriko.jpg" alt="El gallo kiriko" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 7-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/sabanita.jpg"
+                        data-title="Sabanita">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/sabanita.jpg" alt="Sabanita" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 8-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/sabanita2.jpg"
+                        data-title="Sabanita">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/sabanita2.jpg" alt="Sabanita" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 9-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/ambar.jpg"
+                        data-title="Ambar">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/ambar.jpg" alt="Ambar" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 10-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/ambar1.jpg"
+                        data-title="Ambar">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/ambar1.jpg" alt="Ambar" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 11-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/laura.jpg"
+                        data-title="Laura">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/laura.jpg" alt="Laura" />
+                    </a>
+                </div>
+                <!-- Portfolio Item 12-->
+                <div class="col-6 col-md-4 col-lg-3 mb-5">
+                    <a class="portfolio-item mx-auto" data-lightbox="galeria" href="assets/img/portfolio/laura2.jpg"
+                        data-title="Laura">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fa-solid fa-magnifying-glass-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio-thumbs/laura2.jpg" alt="Laura" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <nav class="navbar navbar-light navbar-expand-lg fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#home">
-                    <img src="images/aboutme/Stamp-estiu-maika.png" alt="Sello Maika" width="37px" />
-                    Maikaworld
+    <!-- Publications Section-->
+    <section class="page-section portfolio" id="publications">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Publicaciones</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Publications Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#publicationModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/publications/cubierta_matematicas_experimentales.jpg"
+                            alt="Cuvierta Matemáticas experimentales" />
+                    </div>
+                </div>
+                <!-- Publications Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#publicationModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/publications/Mariola/Des-de-la-Mariola-XI.jpg"
+                            alt="Des de la Mariola" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Sobre mi</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="containerAbout-meImage">
+                <div class="about-meImage">
+                </div>
+                <div class="about-meText">
+                    <p class="lead">La frase que mejor definiría mi infancia es: "Mejor jugar con cartones que con
+                        muñecas". Pasaba horas y horas en la terraza pintando los dibujos que me hacia mi hermana sobre
+                        cartones. Listas enteras de dibujos con todo tipos de personajes que iban creando mi propio
+                        mundo de juegos. Empecé a observar a los que admiraba y
+                        nacieron entonces los retos de superación para poder continuar jugando. Pasé a estudiarla de modo profesional en el bachillerato
+                        artístico, donde empecé a conocer las técnicas artísticas que más adelante me abrirían las
+                        puertas de la carrera de Bellas Artes en la facultad de San Carlos de Valencia. Dibujo, grabado,
+                        pintura, animación y anatomía fueron las mejores asignaturas. 
+
+                    </p>
+                    <p class="lead">Tras trabajar en la serie Clay
+                        Kids pude enfrentarme al reto del stop motion, modelaje, diseño, escenografía... Después de
+                        estas practicas decidí dedicarme a la ilustración infantil y a día de hoy sigo creando mi mundo
+                        de juegos desde las ilustraciones.</p>
+                </div>
+            </div>
+
+            <!-- About Section Button-->
+            <!--<div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <i class="fas fa-download me-2"></i>
+                    Free Download!
                 </a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" style="color: red !important;"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#aboutme">Sobre mi</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#books">Publicaciones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-
-    <!-- HOME Page -->
-    <div class="main-wrapper">
-        <section id="home" class="fullheigth">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-xs-12 col-md-5 col-lg-6 text-center">
-                        <div id="airplanemaikaworld">
-                            <div class="flip-airplane">
-                                <div class="front">
-                                    <img src="images/Home/Airplane-Maikaworld.png" class="img-fluid" alt="Maikaworld" />
-
-                                </div>
-                                <div class="back">
-                                    <img src="images/Home/Airplane-RellenoImaginacion.png" class="img-fluid" alt="Relleno de imaginación" />
-                                </div>
-                            </div>
-                            <h2>Maika G. Montava</h2>
-                            <p>Ilustradora infantil</p>
-                            <a href="#portfolio" class="btn btn-primary">Portafolio</a>
-
-                            <img src="images/Home/cloud1.png" class="img-fluid cloud1" alt="Maikaworld" />
-
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-7 col-lg-6 text-center">
-                        <div id="naufragocontainer">
-                            <img src="images/Home/cloud2.png" class="img-fluid cloud2" alt="Maikaworld" />
-                            <img src="images/Home/cloud3.png" class="img-fluid cloud3" alt="Maikaworld" />
-                            <img src="images/Home/naufragoaigua.png" class="img-fluid naufrago" alt="Maikaworld" />
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </div>
-
-
-
-    <!-- About me Page -->
-    <section id="aboutme">
-        <div class="fullwidth" id="aboutmecontainer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center" style="padding-top: 85px;">
-                        <div id="about-card" class="card">
-                            <div class="card-header">
-                                <div class="row">
-                                    <div>
-                                        <img src="images/aboutme/Stamp-estiu-maika.png" alt="Sello Maika" class=" img-fluid" style="width:90px;margin-left: 25px;margin-right: 20px; margin-bottom: 0px;margin-top: 0px;" />
-                                    </div>
-                                    <div style="padding-top: 20px; margin-left: 0;">
-                                        <div class="nicename">Maika G. Montava</div>
-                                        <div class="subtext" style="clear:both"><i class="fas fa-briefcase"></i> &nbsp; Ilustradora infantil</div>
-                                        <div class="subtext" style="clear:both"><i class="fas fa-globe iconos"></i> Valencia, España</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-content" id="about-me-description">
-                                <p>
-                                    La frase que mejor definiría mi infancia es: "Mejor jugar con cartones que con muñecas". Pasaba horas y horas en la terraza pintando los dibujos que me hacia mi hermana sobre cartones. Listas enteras de dibujos con todo tipos de personajes que iban creando mi propio mundo de juegos. Como todo niño, pedía más de lo que me podían dar, por lo que decidí "restaurar" los antiguos recortes y crear nuevos. Empecé a observar a los que admiraba y nacieron entonces los retos de superación para poder continuar jugando. La base del color la aprendí de los trabajos de mi madre y pasé a estudiarla de modo profesional en el bachillerato artístico, donde empecé a conocer las técnicas artísticas que más adelante me abrirían las puertas de la carrera de Bellas Artes en la facultad de San Carlos de Valencia. Dibujo, grabado, pintura, animación y anatomía fueron las mejores asignaturas. Tras trabajar en la serie Clay Kids pude enfrentarme al reto del stop motion, modelaje, diseño, escenografía... Después de estas practicas decidí dedicarme a la ilustración infantil y a día de hoy sigo creando mi mundo de juegos desde las ilustraciones.
-                                </p>
-                            </div>
-                            <div id="about-btn" class="card-action">
-                                <div class="about-btn">
-                                    <a href="images/portfolio/Portafolio-Maika-Garcia-Montava.pdf" class="btn btn-primary">Descagar Portafolio</a>
-                                    <a href="#contact" class="btn btn-primary">Contacto</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--End of FullWidth -->
-    <!-- <section id="aboutme2">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div id="fixedCVimage">
-                        <img src="images/aboutme/curriculum3.png" class="img-fluid" id="CVImage" style="margin-top: 0;" alt="">
-                    </div>
-                </div>
-
-                <div class="col-8">
-
-                    <ul class="timeline">
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge danger"><i class="fas fa-flag"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Bélgica</h3>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Retorno a Europa con una estancia corta de un año en Mons, capital cultural europea del 2015.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div id="cv1" class="timeline-badge success"><i class="fas fa-trophy"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">Finalista SCBWI</h4>
-                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Undiscovered Voices 2016</small></p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p> <a class="fancybox" title="SCBWI, mascota imaginativa - Ilustración B/N (Tinta)" href="images/portfolio/gallery/img/scbwn.jpg">
-            <img src="images/aboutme/scbwn.jpg" class="img-fluid" alt="" />
-          </a><br /> Una de los 12 finalistas del concurso europeo para ilustradores sin agente.</p>
-                                    <hr>
-                                    <a href=""><i class="fas fa-plus"></i> Info <i class="fas fa-external-link-alt"></i> </a>
-
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge danger"><i class="fas fa-flag"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">USA</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Estancia larga de cuatro años en Estados Unidos donde analicé centenares de álbumes ilustrados, y conocí nuevos ilustradores y editoriales, además de devorarme varios miles de libros en versión original.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div id="cv2" class="timeline-badge success"><i class="fas fa-book"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">Des de la Mariola</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Doce libros autopublicados por el autor Ignacio Reig Ferre con un total de 144 ilustraciones en acuarela.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge warning"><i class="fas fa-tv"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">ClayKids</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Prácticas de trabajo en la serie de animación infantil realizada por Clay Animation. Puesta en práctica de la técnica de animación "Stop Motion", modelaje, diseño, escenografía... </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge info"><i class="fas fa-graduation-cap"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">Licenciada en Bellas Artes</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Licenciada en Bellas Artes por la UPV con la especialidad de dibujo y máster de profesorado en Educación Secundaria por la UV.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-badge success"><i class="fas fa-trophy"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">Certamen de cómic e ilustración</h4>
-                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Santa Pola</small></p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Premio de ilustración por el trabajo "Espantapájaros".</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div id="cv3" class="timeline-badge success"><i class="fas fa-trophy"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">Concurso cartel</h4>
-                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> Reyes magos de Banyeres de Mariola</small></p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Ganadora del concurso "Cartel revista Reyes Magos de Banyeres de Mariola".</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-badge info"><i class="fas fa-graduation-cap"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title">Bachillerato Artístico</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Primer contacto con nociones artísticas en la Escuela de Arte y Superior de Diseño de Alcoy.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!-- End of About Me section  -->
-
-
-
-
-    <section id="portfolio" style="margin-top: 10px;">
-        <div class="container">
-            <div class="row">
-                <div class=" col-12 text-center" style="padding-top: 80px;">
-                    <h1 class="title sectitle">Portafolio</h1>
-                    <div id="Naugragocatalejocontainer" class="d-flex flex-column">
-                        <div class=""><img src="images/portfolio/naufrago-catalejo.png" id="naufrago" class="img-fluid" alt="Maikaworld" /></div>
-                        <div id="portfoliodownloadlink" style="margin-left: 40%;"> <a href="images/portfolio/Portafolio-Maika-Garcia-Montava.pdf" class="btn btn-primary">Descargar Portafolio</a><br />
-                            <div style="color:grey;margin:5px;font-size: 8pt;">Archivo de 30Mb</div>
-                        </div>
-
-                    </div>
-
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs justify-content-center" id="Portfolio" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" id="Gallery-tab" data-toggle="tab" href="#gallery" role="tab" aria-controls="profile" aria-selected="false">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" id="compositions-tab" data-toggle="tab" href="#compositions" role="tab" aria-controls="messages" aria-selected="false">Composiciones</a>
-                        </li>
-                        <!--<li class="nav-item">
-                            <a class="nav-link" id="bocetos-tab" data-toggle="tab" href="#bocetos" role="tab" aria-controls="settings" aria-selected="false">Bocetos</a>
-                        </li>-->
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class=" col-12 text-center">
-                    <!-- Tab panes -->
-                    <div class="tab-content">
-                        <div class="tab-pane active" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
-
-                            <div class="container">
-
-
-                                <!--<div class="controls d-flex flex-wrap justify-content-sm-around justify-content-md-center">
-                                    <a id="allbutton" class="btn btn-primary control" data-mixitup-control data-filter="all" style="margin: 30px 10px 50px 10px; padding: 10px;">Todas</a>
-                                    <a id="Acuarelabutton" class="control" data-mixitup-control data-filter=".Acuarela" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Acuarela"><img src="images/portfolio/gallery/filters/acuarela_boceto.jpg" id="acuarelabutton" class="img-fluid galleryfilter" alt="Maikaworld" /></a>
-                                    <a id="LapizesColoresbutton" class="control" data-mixitup-control data-filter=".LapizesColores" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Lápizes de colores"><img src="images/portfolio/gallery/filters/lapices_de_colores_boceto.jpg" id="lapizescolores" class="img-fluid galleryfilter" alt="Maikaworld" /></a>
-                                    <a id="Lapizytintabutton" class="control" data-mixitup-control data-filter=".LapizyTinta" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Lápiz y tinta"><img src="images/portfolio/gallery/filters/lapizytinta_boceto.jpg" id="lapizytinta" class="img-fluid galleryfilter" alt="Maikaworld" /></a>
-                                    <a id="pinturabutton" class="control" data-mixitup-control data-filter=".Pintura" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Pintura"><img src="images/portfolio/gallery/filters/pintura_boceto.jpg" id="pintura" class="img-fluid galleryfilter" alt="Maikaworld" /></a>
-                                    <a id="informaticasbutton" class="control" data-mixitup-control data-filter=".Informaticas" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Técnicas Informáticas"><img src="images/portfolio/gallery/filters/tecnicas_informaticas_boceto.jpg" id="informaticas" class="img-fluid galleryfilter" alt="Maikaworld" /></a>
-                                    <a id="mixtasbutton" class="control" data-mixitup-control data-filter=".Mixtas" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Técnicas mixtas"><img src="images/portfolio/gallery/filters/tecnicas_mixtas_boceto.jpg" id="mixtas" class="img-fluid galleryfilter" alt="Maikaworld" /></a>
-
-                                </div>
-
-                                <hr />-->
-
-                                <ul id="hexGrid" style="margin-top: 40px;">
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Una más entre los demas, 'Laura Brazos Largos' - Album ilustrado (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/Laura-3.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/Laura-3.jpg" alt="This is a title1<" />
-                                                <h1>Laura</h1>
-                                                <p>Album ilustrado</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Clase de música, 'Ambar' - Album ilustrado (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/Ambar-2.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/Ambar-2.jpg" alt="" />
-                                                <h1>Ambar</h1>
-                                                <p>Album ilustrado</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Tarta de pescado - Tarjeta aniversario (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/aniversari.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/aniversari.jpg" alt="" />
-                                                <h1>Cumpleaños</h1>
-                                                <p>Tarjeta aniversario</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Vuelos artísticos - Ilustración libre (Técnicas mixtas)" rel="group" href="images/portfolio/gallery/img/Bruixa.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/Bruixa.jpg" alt="" />
-                                                <h1>Bruja</h1>
-                                                <p>Ilustración libre</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Vaquero soleado - Ilustración libre (Técnicas mixtas)" rel="group" href="images/portfolio/gallery/img/cowboy.jpg">
-            <img src="images/portfolio/gallery/thumbnails/cowboy.jpg" alt="" />
-            <h1>Cowboy</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <!--<li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Exploración dentro de las piramides - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/explorador.jpg">
-            <img src="images/portfolio/gallery/thumbnails/explorador.jpg" alt="" />
-            <h1>Piramides</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="El flautista de Hamelin - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/hamelin%20flauta.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/hamelin%20flauta.jpg" alt="" />
-                                                <h1>Hamelin</h1>
-                                                <p>Ilustración libre </p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="El flautista de Hamelin - Composición a doble página (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/flautista%20hamelin.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/flautista%20hamelin.jpg" alt="" />
-                                                <h1>Laura</h1>
-                                                <p>Album ilustrado</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Puntos aquí, puntos allá, 'Laura Brazos Largos' - Album ilustrado (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/Laura-1.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/Laura-1.jpg" alt="" />
-                                                <h1>Laura</h1>
-                                                <p>Album ilustrado</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Tarde de otoño, 'Laura Brazos Largos' - Album ilustrado (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/Laura-2.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/Laura-2.jpg" alt="" />
-                                                <h1>Laura</h1>
-                                                <p>Album ilustrado</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Libre con libros - Día internacional del libro (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/Lliure%20amb%20llibres.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/Lliure%20amb%20llibres.jpg" alt="" />
-                                                <h1>Libre</h1>
-                                                <p>Ilustración libre</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Mapache rebelde - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/marmota%20y%20mapache.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/marmota%20y%20mapache.jpg" alt="" />
-                                                <h1>Mapache</h1>
-                                                <p>Ilustración libre</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Acuarela">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="El tio Pep sobre el caracol - Portada del libro 'Des de la Mariola XI' (Acuarela)" rel="group" href="images/portfolio/gallery/img/portada%20def.jpg">
-            <img src="images/portfolio/gallery/thumbnails/portada%20def.jpg" alt="" />
-            <h1>Mariola XI</h1>
-            <p>Acuarela</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Preparada y lista, 'Ambar' - Album ilustrado (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/proteccio.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/proteccio.jpg" alt="" />
-                                                <h1>Ambar</h1>
-                                                <p>Album ilustrado</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Supercat - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/super%20cat.jpg">
-            <img src="images/portfolio/gallery/thumbnails/super%20cat.jpg" alt="" />
-            <h1>Supercat</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="El último paso, 'La liebre y la tortuga' - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/Tortoise.jpg">
-            <img src="images/portfolio/gallery/thumbnails/Tortoise.jpg" alt="" />
-            <h1>El último paso</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Acuarela">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Bonjour - Ilustración libre (Acuarela)" rel="group" href="images/portfolio/gallery/img/bonjour.jpg">
-            <img src="images/portfolio/gallery/thumbnails/bonjour.jpg" alt="" />
-            <h1>Bonjour</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Book at the playground - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/playground.jpg">
-            <img src="images/portfolio/gallery/thumbnails/playground.jpg" alt="" />
-            <h1>Book at the playground</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible LapizyTinta">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Bruja Ink - Ilustración B/N (Tinta)" rel="group" href="images/portfolio/gallery/img/bruja.jpg">
-            <img src="images/portfolio/gallery/thumbnails/bruja.jpg" alt="" />
-            <h1>Bruja Ink</h1>
-            <p>Ink</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Calendario SCBWI northeast ohio (USA) - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/calendar.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/calendar.jpg" alt="" />
-                                                <h1>Calendario SCBWI</h1>
-                                                <p>Concurso</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Tarjeta de Navidad (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/christmas.jpg">
-            <img src="images/portfolio/gallery/thumbnails/christmas.jpg" alt="" />
-            <h1>Navidad</h1>
-            <p>tarjeta</p>
-          </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Tarjeta de Navidad II (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/christmas2.jpg">
-            <img src="images/portfolio/gallery/thumbnails/christmas2.jpg" alt="" />
-            <h1>Navidad</h1>
-            <p>tarjeta</p>
-          </a>
-                                        </div>
-                                    </li>
-                                   <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Magia en el circo - Prueba textura (Técnicas mixtas)" rel="group" href="images/portfolio/gallery/img/circus.jpg">
-            <img src="images/portfolio/gallery/thumbnails/circus.jpg" alt="" />
-            <h1>Circo</h1>
-            <p>Texturas</p>
-          </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Cuenta atrás para el verano - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/counting.jpg">
-            <img src="images/portfolio/gallery/thumbnails/counting.jpg" alt="" />
-            <h1>Verano</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Sueños de elefante - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/elephant.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/elephant.jpg" alt="" />
-                                                <h1>Elefante</h1>
-                                                <p>Ilustración libre</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Gorda como una tapia - Prueba textura (Técnicas mixtas)" rel="group" href="images/portfolio/gallery/img/Gorda.jpg">
-            <img src="images/portfolio/gallery/thumbnails/Gorda.jpg" alt="" />
-            <h1>Gorda</h1>
-            <p>como una tapia</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <!--<li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Halloween - Ilustración libre (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/halloween.jpg">
-            <img src="images/portfolio/gallery/thumbnails/halloween.jpg" alt="" />
-            <h1>Halloween</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Tarjeta de Navidad III (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/christmas3.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/christmas3.jpg" alt="" />
-                                                <h1>Navidad</h1>
-                                                <p>tarjeta</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Recién hechas - Ilustración libre  (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/mr-bear.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/mr-bear.jpg" alt="" />
-                                                <h1>Mr Bear</h1>
-                                                <p>Ilustración libre</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Naufrago, 100% lovers - Ilustración libre  (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/naufrago.jpg">
-            <img src="images/portfolio/gallery/thumbnails/naufrago.jpg" alt="" />
-            <h1>Naufrago</h1>
-            <p>100% lovers </p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <!--<li class="hex mix galleryvisible Pintura">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Pedro y el lobo - trabajo de pintura  (Pintura)" rel="group" href="images/portfolio/gallery/img/pedroyellobo.jpg">
-            <img src="images/portfolio/gallery/thumbnails/pedroyellobo.jpg" alt="" />
-            <h1>Pedro y el lobo</h1>
-            <p>Pintura </p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Un plan ariesgado - Ilustración libre (Técnicas mixtas)" rel="group" href="images/portfolio/gallery/img/plan.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/plan.jpg" alt="" />
-                                                <h1>Un plan</h1>
-                                                <p>arriesgado</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Pinguinos - Tarjeta aniversario (Técnicas mixtas)" rel="group" href="images/portfolio/gallery/img/pinguins.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/pinguins.jpg" alt="" />
-                                                <h1>Pinguinos</h1>
-                                                <p>Tarjeta aniversario</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Riase your hands - Collage (Técnicas mixtas)" rel="group" href="images/portfolio/gallery/img/Pirate.jpg">
-            <img src="images/portfolio/gallery/thumbnails/Pirate.jpg" alt="" />
-            <h1>Riase your hands</h1>
-            <p>Collage</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible LapizesColores">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Señor Pajín - Proyecto (Lápized de colores)" rel="group" href="images/portfolio/gallery/img/scarecrow.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/scarecrow.jpg" alt="" />
-                                                <h1>Señor Pajín</h1>
-                                                <p>Proyecto</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible LapizyTinta">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="SCBWI, mascota imaginativa - Ilustración B/N (Tinta)" rel="group" href="images/portfolio/gallery/img/scbwn.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/scbwn.jpg" alt="" />
-                                                <h1>Mascota imaginativa</h1>
-                                                <p>Tinta</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="El gallo kiriko, primera prueba - Proyecto (Técnica mixta)" rel="group" href="images/portfolio/gallery/img/rooster.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/rooster.jpg" alt="" />
-                                                <h1>El gallo kiriko</h1>
-                                                <p>Proyecto</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible LapizyTinta">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Nido Calido - Ilustración libre (Lápiz)" rel="group" href="images/portfolio/gallery/img/sweet-scarecrow.jpg">
-            <img src="images/portfolio/gallery/thumbnails/sweet-scarecrow.jpg" alt="" />
-            <h1>Nido Calido</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <!--<li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Té en el circo - Prueba de textura (Técnica mixta)" rel="group" href="images/portfolio/gallery/img/teacircus.jpg">
-            <img src="images/portfolio/gallery/thumbnails/teacircus.jpg" alt="" />
-            <h1>Té en el circo</h1>
-            <p>Texturas</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <!-- <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="El ratón y el cascabel- Ilustración libre (Técnica mixta)" rel="group" href="images/portfolio/gallery/img/catmouse.jpg">
-            <img src="images/portfolio/gallery/thumbnails/catmouse.jpg" alt="" />
-            <h1>El ratón</h1>
-            <p>y el cascabel</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <!--<li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Al carajo - Ilustración libre (Técnica mixta)" rel="group" href="images/portfolio/gallery/img/carajo.jpg">
-            <img src="images/portfolio/gallery/thumbnails/carajo.jpg" alt="" />
-            <h1>Al carajo</h1>
-            <p>Ilustración libre</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                    <li class="hex mix galleryvisible Mixtas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Who are you? - Ilustración libre (Técnica mixta)" rel="group" href="images/portfolio/gallery/img/who.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/who.jpg" alt="" />
-                                                <h1>Who are you?</h1>
-                                                <p>who?</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible LapizyTinta">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Cohete espacial - Ilustración libre (tinta)" rel="group" href="images/portfolio/gallery/img/rocket.jpg">
-                                                <img src="images/portfolio/gallery/thumbnails/rocket.jpg" alt="" />
-                                                <h1>Cohete</h1>
-                                                <p>Ilustración libre</p>
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <!--<li class="hex mix galleryvisible Informaticas">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Halloween, trick or treat? (Técnicas Informáticas)" rel="group" href="images/portfolio/gallery/img/trick-or-treat.jpg">
-            <img src="images/portfolio/gallery/thumbnails/trick-or-treat.jpg" alt="" />
-            <h1>Halloween</h1>
-            <p>trick or treat?</p>
-          </a>
-                                        </div>
-                                    </li>
-                                    <li class="hex mix galleryvisible LapizyTinta">
-                                        <div class="hexIn">
-                                            <a class="hexLink fancybox" title="Patos - Tarjeta regalo (Tinta)" rel="group" href="images/portfolio/gallery/img/Regalos.jpg">
-            <img src="images/portfolio/gallery/thumbnails/Regalos.jpg" alt="" />
-            <h1>Tarjeta regalo</h1>
-            <p>Tinta</p>
-          </a>
-                                        </div>
-                                    </li>-->
-                                </ul>
-
-                            </div>
-                            <!-- container -->
-
-                        </div>
-                        <div class="tab-pane" id="compositions" role="tabpanel" aria-labelledby="compositions-tab">
-                            <div id="demo" class="carousel slide" data-ride="carousel">
-
-                                <!-- Indicators -->
-                                <ul class="carousel-indicators">
-                                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                                    <li data-target="#demo" data-slide-to="1"></li>
-                                    <li data-target="#demo" data-slide-to="2"></li>
-                                </ul>
-
-                                <!-- The slideshow -->
-                                <div class="carousel-inner" style="margin-top: 30px;">
-                                    <div class="carousel-item active">
-                                        <img src="images/portfolio/gallery/img/flautista%20hamelin.jpg" class="img-fluid composition" alt="El flautista de Hamelin -- Composición a doble página">
-                                        <div class="carousel-caption">
-                                            <h3>El flautista de Hamelin - Composición a doble página (Técnicas Informáticas)</h3>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="images/portfolio/gallery/img/Laura-3.jpg" class="img-fluid composition" alt="Una más entre los demas, 'Laura Brazos Largos'">
-                                        <div class="carousel-caption">
-                                            <h3>Una más entre los demas, 'Laura Brazos Largos' - Album ilustrado (Técnicas Informáticas)</h3>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="images/portfolio/gallery/img/Ambar-2.jpg" class="img-fluid composition" alt="Clase de música, 'Ambar'">
-                                        <div class="carousel-caption">
-                                            <h3>Clase de música, 'Ambar' - Album ilustrado (Técnicas Informáticas)</h3>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!-- Left and right controls -->
-                                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                                    <span class="carousel-control-prev-icon"></span>
-                                </a>
-                                <a class="carousel-control-next" href="#demo" data-slide="next">
-                                    <span class="carousel-control-next-icon"></span>
-                                </a>
-
-                            </div>
-                        </div>
-                        <!-- <div class="tab-pane" id="bocetos" role="tabpanel" aria-labelledby="bocetos-tab">
-
-                            <div class="gallery">
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Sant Jordi" rel="bocetos" href="images/portfolio/gallery/Bocetos/1.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/1.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Cupido" rel="bocetos" href="images/portfolio/gallery/Bocetos/2.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/2.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Oso supercerebrado" rel="bocetos" href="images/portfolio/gallery/Bocetos/3.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/3.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Oso cocinando" rel="bocetos" href="images/portfolio/gallery/Bocetos/4.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/4.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Cumple Jerry" rel="bocetos" href="images/portfolio/gallery/Bocetos/5.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/5.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Mi mascota" rel="bocetos" href="images/portfolio/gallery/Bocetos/6.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/6.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Flautista Hameli" rel="bocetos" href="images/portfolio/gallery/Bocetos/7.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/7.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Sant Jordi" rel="bocetos" href="images/portfolio/gallery/Bocetos/8.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/8.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Pescando amor" rel="bocetos" href="images/portfolio/gallery/Bocetos/9.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/9.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Be ready!" rel="bocetos" href="images/portfolio/gallery/Bocetos/10.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/10.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Have fun!" rel="bocetos" href="images/portfolio/gallery/Bocetos/11.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/11.jpg" alt="" />
-                                    </a>
-                                </div>
-                                <div class="col-6 col-sm-4 col-md-3">
-                                    <a class="fancybox" title="Animales" rel="bocetos" href="images/portfolio/gallery/Bocetos/12.jpg">
-                                        <img src="images/portfolio/gallery/Bocetos-thumbnails/12.jpg" alt="" />
-                                    </a>
-                                </div>
-
-                            </div>
-
-                        </div>-->
-                    </div>
-
-
-                </div>
-            </div>
+            </div>-->
         </div>
     </section>
-    <!--/#portfolio-->
-
-    <!-- Books section  -->
-
-    <section id="books">
+    <!-- Contact Section-->
+    <section class="page-section " id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12" style="padding-top: 80px;">
-                    <div class=" text-center" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                        <h1 class="title sectitle">Publicaciones</h1>
-                        <p><img src="images/Books/llibre-mariola.png" class="img-fluid" alt=""></p>
-                        <p>Des de la Mariola es una recopilación autoeditada por Ignacio Reig Ferre. Cuenta con un total de 82 cuentos que se reparten en 12 libros ilustrados en acuarelas y cuentan las historias de la sierra Mariola y sus pueblos. Los relatos se remontan a la década de los años cincuenta. Historias de tesoros, universos mágicos, seres fantásticos, lugares insólitos... la mayoría de ellas protagonizadas por “El tio Pep”, figura enérgica, emprendedora y decidida que se sumerge a un mundo lleno de fantasía y misterio.</p>
-                    </div>
-
-                    <!--Carrousel for big screens -->
-                    <div class="carousel slide media-carousel d-none d-lg-block" id="media1" data-ride="carousel">
-                        <div class="carousel-inner  wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeIn;">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-12"><img class="img-fluid book " alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/Des-de-la-Mariola-XII-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-11"><img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/Des-de-la-Mariola-XI-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-10"><img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/Des-de-la-Mariola-X-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-09"><img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/Des-de-la-Mariola-IX-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-08"><img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/Des-de-la-Mariola-VIII-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-07"><img class="img-fluid book" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/Des-de-la-Mariola-VII-cover.jpg"></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-06"><img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/Des-de-la-Mariola-VI-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-05"><img class="img-fluid book" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/Des-de-la-Mariola-V-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-04"><img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/Des-de-la-Mariola-IV-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-03"><img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/Des-de-la-Mariola-III-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-02"><img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/Des-de-la-Mariola-II-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-2 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-01"><img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/Des-de-la-Mariola-I-cover.jpg"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <a class="left carousel-control carousel-control-prev" href="#media1" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="right carousel-control carousel-control-next" href="#media1" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-
-                    </div>
-                    <!-- Carrousel for medium screens -->
-
-                    <div class="carousel slide media-carousel d-none d-md-block d-lg-none" id="media2" data-ride="carousel">
-                        <div class="carousel-inner  wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeIn;">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-12"><img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/Des-de-la-Mariola-XII-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-11"><img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/Des-de-la-Mariola-XI-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-10"><img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/Des-de-la-Mariola-X-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-09"><img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/Des-de-la-Mariola-IX-cover.jpg"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-08"><img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/Des-de-la-Mariola-VIII-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-07"><img class="img-fluid book" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/Des-de-la-Mariola-VII-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-06"><img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/Des-de-la-Mariola-VI-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-05"><img class="img-fluid book" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/Des-de-la-Mariola-V-cover.jpg"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-04"><img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/Des-de-la-Mariola-IV-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-03"><img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/Des-de-la-Mariola-III-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-02"><img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/Des-de-la-Mariola-II-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-md-3 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-01"><img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/Des-de-la-Mariola-I-cover.jpg"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <a class="left carousel-control carousel-control-prev" href="#media2" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="right carousel-control carousel-control-next" href="#media2" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-
-                    </div>
-
-
-
-
-                    <!--Carrousel for small screens -->
-                    <div class="carousel slide media-carousel d-md-none" id="media3" data-ride="carousel">
-                        <div class="carousel-inner  wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeIn;">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-12"><img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/Des-de-la-Mariola-XII-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-11"><img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/Des-de-la-Mariola-XI-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-10"><img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/Des-de-la-Mariola-X-cover.jpg"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-09"><img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/Des-de-la-Mariola-IX-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-08"><img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/Des-de-la-Mariola-VIII-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-07"><img class="img-fluid book" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/Des-de-la-Mariola-VII-cover.jpg"></a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-06"><img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/Des-de-la-Mariola-VI-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-05"><img class="img-fluid book" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/Des-de-la-Mariola-V-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-04"><img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/Des-de-la-Mariola-IV-cover.jpg"></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-03"><img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/Des-de-la-Mariola-III-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-02"><img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/Des-de-la-Mariola-II-cover.jpg"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#Des-De-La-Mariola-01"><img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/Des-de-la-Mariola-I-cover.jpg"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <a class="left carousel-control carousel-control-prev" href="#media3" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="right carousel-control carousel-control-next" href="#media3" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-
-                    </div>
-                </div>
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacto</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
             </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12" style="padding-top: 80px;">
-                    <div class=" text-center" data-wow-duration="500ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInUp;">
-                        <h1 class="title sectitle">Proyectos</h1>
-                    </div>
-
-
-                    <!--Carrousel for small screens -->
-                    <div class="carousel slide media-carousel" id="media4" data-ride="carousel">
-                        <div class="carousel-inner  wow fadeIn animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeIn;">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#project1"><img class="img-fluid book" alt="Proyecto 1" src="images/projects/project1/cover.jpg" style="border: 1px solid #555;"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#project2"><img class="img-fluid book" alt="Proyecto 2" src="images/projects/project2/cover.jpg" style="border: 1px solid #555;"></a>
-                                    </div>
-                                    <div class="col-4 book-container">
-                                        <a role="button" data-toggle="modal" data-target="#project3"><img class="img-fluid book" alt="Proyecto 3" src="images/projects/project3/cover.jpg" style="border: 1px solid #555;"></a>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
-
-                        <a class="left carousel-control carousel-control-prev" href="#media3" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="right carousel-control carousel-control-next" href="#media3" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-    <!-- End of Books section -->
-
-    <!-- Modal Des de la Mariola 01 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-01" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola I</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola1">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/4b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/4a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/5b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/5a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/6.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/7.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/8a.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola I" src="images/Books/Des-de-la-mariola-01/8b.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M1prev"> Página anterior </a>
-                        <a href="#" id="M1next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-02">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Des de la Mariola 02 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-02" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola II</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola2">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/4a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/4b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/5b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola II" src="images/Books/Des-de-la-mariola-02/5a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M2prev"> Página anterior </a>
-                        <a href="#" id="M2next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-01">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-03">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Des de la Mariola 03 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-03" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola III</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola3">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/4b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola III" src="images/Books/Des-de-la-mariola-03/4a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M3prev"> Página anterior </a>
-                        <a href="#" id="M3next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-02">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-04">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Des de la Mariola 04 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-04" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola IV</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola4">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/4a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/4b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/5b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola IV" src="images/Books/Des-de-la-mariola-04/5a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M4prev"> Página anterior </a>
-                        <a href="#" id="M4next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-03">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-05">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal Des de la Mariola 05 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-05" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola V</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola5">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/3a.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/4a.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola V" src="images/Books/Des-de-la-mariola-05/4b.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M5prev"> Página anterior </a>
-                        <a href="#" id="M5next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-04">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-06">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Des de la Mariola 06 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-06" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola VI</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola6">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/4b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/4a.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/5b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola VI" src="images/Books/Des-de-la-mariola-06/5a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M6prev"> Página anterior </a>
-                        <a href="#" id="M6next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-05">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-07">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal Des de la Mariola 07 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-07" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola VII</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola7">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/2.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/3.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/4.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola VII" src="images/Books/Des-de-la-mariola-07/5.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M7prev"> Página anterior </a>
-                        <a href="#" id="M7next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-06">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-08">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal Des de la Mariola 08 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-08" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola VIII</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola8">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/4b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/4a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/5a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/5b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/6a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola VIII" src="images/Books/Des-de-la-mariola-08/6b.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M8prev"> Página anterior </a>
-                        <a href="#" id="M8next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-07">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-09">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal Des de la Mariola 09 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-09" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola IX</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola9">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/4a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/4b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/5b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola IX" src="images/Books/Des-de-la-mariola-09/5a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M9prev"> Página anterior </a>
-                        <a href="#" id="M9next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-08">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-10">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Modal Des de la Mariola 10 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-10" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola X</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola10">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/4b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/4a.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/5b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola X" src="images/Books/Des-de-la-mariola-10/5a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M10prev"> Página anterior </a>
-                        <a href="#" id="M10next"> Página siguiente </a>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-09">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-11">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Modal Des de la Mariola 11 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-11" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola XI</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola11">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/4a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/4b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/5b.jpg"> </div>
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola XI" src="images/Books/Des-de-la-mariola-11/5a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M11prev"> Página anterior </a>
-                        <a href="#" id="M11next"> Página siguiente </a>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-10">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-12">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- Modal Des de la Mariola 12 -->
-    <div class="modal fade bookmodal" id="Des-De-La-Mariola-12" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Des de la Mariola XII</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="Mariola12">
-                        <div> <img class="img-fluid book hard" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/2a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/2b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/3b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/3a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/4a.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/4b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/5b.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Des de la Mariola XII" src="images/Books/Des-de-la-mariola-12/5a.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="M12prev"> Página anterior </a>
-                        <a href="#" id="M12next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#Des-De-La-Mariola-11">Anterior</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    </div>
-
-    <!-- Project 1 -->
-    <div class="modal fade bookmodal" id="project1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Proyecto 1</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbook" id="project1flipbook">
-                        <div> <img class="img-fluid book hard" alt="Proyecto 1" src="images/projects/project1/cover.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 1" src="images/projects/project1/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 2" src="images/projects/project1/2.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 3" src="images/projects/project1/3.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 4" src="images/projects/project1/4.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="P1prev"> Página anterior </a>
-                        <a href="#" id="P1next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#project2">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Project 2 -->
-    <div class="modal fade bookmodal" id="project2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Proyecto 2</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <div class="flipbookalmostSquare" id="project2flipbook">
-                        <div> <img class="img-fluid book hard" alt="Proyecto 1" src="images/projects/project2/cover.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 1" src="images/projects/project2/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 2" src="images/projects/project2/2.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 3" src="images/projects/project2/3.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 4" src="images/projects/project2/4.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 5" src="images/projects/project2/5.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 6" src="images/projects/project2/6.jpg"> </div>
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="P2prev"> Página anterior </a>
-                        <a href="#" id="P2next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#project1">Anterior</button>
-                    <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#project3">Siguiente</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="modal fade bookmodal" id="project3" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-        <div class="modal-dialog modal-lg mw-100">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h2 class="modal-title" id="myModalLabel">Proyecto 3</h2>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" style="height: auto;">
-
-                    <div class="flipbooksquare" id="project3flipbook">
-                        <div> <img class="img-fluid book hard" alt="Proyecto 3" src="images/projects/project3/cover.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 1" src="images/projects/project3/1.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 2" src="images/projects/project3/2.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 3" src="images/projects/project3/3.jpg"> </div>
-                        <div> <img class="img-fluid book" alt="Imágen 4" src="images/projects/project3/4.jpg"> </div>
-
-                    </div>
-                    <div class="flip-control">
-                        <a href="#" id="P3prev"> Página anterior </a>
-                        <a href="#" id="P3next"> Página siguiente </a>
-                    </div>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary mr-auto" data-dismiss="modal" data-toggle="modal" data-target="#project2">Anterior</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <script src="js/turn.min.js"></script>
-
-    <script type="text/javascript">
-        var M1 = $("#Mariola1").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M1prev").click(function(e) {
-            e.preventDefault();
-            M1.turn("previous");
-        });
-
-        $("#M1next").click(function(e) {
-            e.preventDefault();
-            M1.turn("next");
-        });
-        var M2 = $("#Mariola2").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M2prev").click(function(e) {
-            e.preventDefault();
-            M2.turn("previous");
-        });
-
-        $("#M2next").click(function(e) {
-            e.preventDefault();
-            M2.turn("next");
-        });
-        var M3 = $("#Mariola3").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M3prev").click(function(e) {
-            e.preventDefault();
-            M3.turn("previous");
-        });
-
-        $("#M3next").click(function(e) {
-            e.preventDefault();
-            M3.turn("next");
-        });
-        var M4 = $("#Mariola4").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M4prev").click(function(e) {
-            e.preventDefault();
-            M4.turn("previous");
-        });
-
-        $("#M4next").click(function(e) {
-            e.preventDefault();
-            M4.turn("next");
-        });
-        var M5 = $("#Mariola5").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M5prev").click(function(e) {
-            e.preventDefault();
-            M5.turn("previous");
-        });
-
-        $("#M5next").click(function(e) {
-            e.preventDefault();
-            M5.turn("next");
-        });
-        var M6 = $("#Mariola6").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M6prev").click(function(e) {
-            e.preventDefault();
-            M6.turn("previous");
-        });
-
-        $("#M6next").click(function(e) {
-            e.preventDefault();
-            M6.turn("next");
-        });
-        var M7 = $("#Mariola7").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M7prev").click(function(e) {
-            e.preventDefault();
-            M7.turn("previous");
-        });
-
-        $("#M7next").click(function(e) {
-            e.preventDefault();
-            M7.turn("next");
-        });
-        var M8 = $("#Mariola8").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M8prev").click(function(e) {
-            e.preventDefault();
-            M8.turn("previous");
-        });
-
-        $("#M8next").click(function(e) {
-            e.preventDefault();
-            M8.turn("next");
-        });
-        var M9 = $("#Mariola9").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M9prev").click(function(e) {
-            e.preventDefault();
-            M9.turn("previous");
-        });
-
-        $("#M9next").click(function(e) {
-            e.preventDefault();
-            M9.turn("next");
-        });
-        var M10 = $("#Mariola10").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M10prev").click(function(e) {
-            e.preventDefault();
-            M10.turn("previous");
-        });
-
-        $("#M10next").click(function(e) {
-            e.preventDefault();
-            M10.turn("next");
-        });
-        var M11 = $("#Mariola11").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M11prev").click(function(e) {
-            e.preventDefault();
-            M11.turn("previous");
-        });
-
-        $("#M11next").click(function(e) {
-            e.preventDefault();
-            M11.turn("next");
-        });
-        var M12 = $("#Mariola12").turn({
-            width: 700,
-            height: 450,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#M12prev").click(function(e) {
-            e.preventDefault();
-            M12.turn("previous");
-        });
-
-        $("#M12next").click(function(e) {
-            e.preventDefault();
-            M12.turn("next");
-        });
-
-        var P1 = $("#project1flipbook").turn({
-            width: 700,
-            height: 336,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#P1prev").click(function(e) {
-            e.preventDefault();
-            P1.turn("previous");
-        });
-
-        $("#P1next").click(function(e) {
-            e.preventDefault();
-            P1.turn("next");
-        });
-
-        var P2 = $("#project2flipbook").turn({
-            width: 700,
-            height: 445,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#P2prev").click(function(e) {
-            e.preventDefault();
-            P2.turn("previous");
-        });
-
-        $("#P2next").click(function(e) {
-            e.preventDefault();
-            P2.turn("next");
-        });
-
-        var P3 = $("#project3flipbook").turn({
-            width: 700,
-            height: 350,
-            autoCenter: true,
-            elevation: 50,
-            gradients: true,
-            next: true
-        });
-        $("#P3prev").click(function(e) {
-            e.preventDefault();
-            P3.turn("previous");
-        });
-
-        $("#P3next").click(function(e) {
-            e.preventDefault();
-            P3.turn("next");
-        });
-
-    </script>
-    <!-- Contact info section  -->
-
-    <section>
-        <div class="fullwidth" id="contact">
-            <div class="container wrap">
-                <div class=" col-12 text-center">
-                    <h1 class="title sectitle">Contacto</h1>
-                </div>
-                <div class="row align-items-start ">
-                    <div class="d-none d-md-block col-md-2 col-lg-3">
-                        <!-- <div class="flip-naufrago">
-                            <div class="front">
-                                <img src="images/contact/naufragoportatil.png" class="img-fluid" alt="Nauafrago Botella" />
-
-                            </div>
-                            <div class="back">
-                                <img src="images/contact/naufragobotella.png" class="img-fluid" alt="Relleno de imaginación" />
-                            </div>
-                        </div>-->
-
-                    </div>
-                    <div class="col-xs-12  col-md-6 col-lg-4">
-                        <div class="row well" style="min-width: 500px;">
-                            <div class="col-3 col-sm-4 col-md-4 col-lg-5">
-                                <img src="images/aboutme/Stamp-estiu-maika.png" alt="Sello Maika" class=" img-fluid" />
-                            </div>
-                            <div class="col-9 col-sm-8 col-md-8 col-lg-7">
-                                <h4 id="cardname">Maika G. Garcia</h4>
-                                <small><cite title="Valencia, Spain">Valencia, España <i class="fas fa-map-marker-alt"></i></cite></small>
-                                <p>
-                                    <i class="fas fa-envelope iconos"></i><a href="mailto:maikaworld@gmail.com" style="text-decoration: none;color: inherit;">maikaworld@gmail.com</a>
-                                    <br />
-                                    <i class="fas fa-globe iconos"></i><a href="https://www.maikaworld.com" style="text-decoration: none;color: inherit;">www.maikaworld.com</a>
-                                </p>
-                            </div>
-                            <!--<div class="btn-group">
-                                    <a href="https://www.facebook.com/Maikaworld-135069476578159/" class="btn btn-primary"><span class="fab fa-2x fa-facebook-square"></span></a>
-                                    <a href="https://plus.google.com/+MaikaGarc%C3%ADaMontava" class="btn btn-danger"><span class="fab fa-2x fa-google"></span></a>
-                                    <a href="https://twitter.com/maikaworldnews" class="btn btn-info"><span class="fab fa-2x fa-twitter"></span></a>
-                                    <a href="https://au.linkedin.com/in/maria-del-carmen-garc%C3%ADa-montava-11692643" class="btn btn-primary"><span class="fab fa-2x fa-linkedin"></span></a>
+            <!-- Contact Section Form-->
+            <div class="row ">
+                <div style="   justify-content: center !important;
+                margin: auto; width: 500px;               ">
+
+
+                    <div class="card ">
+                        <div class="additional">
+                            <div class="user-card">
+                                <!--<div class="level center">
+                                    Maika
                                 </div>-->
+                                <h2 class="text-center  mt-4">Maika </h2>
+
+                                <div class="center " style="padding: 10px;">
+                                    <img class="img-fluid" src="assets/img/avatar.png" alt="portrait" />
+                                </div>
+
+                            </div>
+                            <div class="more-info">
+                                <h2 class="text-center mt-4"> Garcia Montava</h2>
+
+                                <!--<p style="padding-left: 20px; padding-right:20px; padding-top:20px; color:white;">Lorem
+                                    ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at
+                                </p>-->
+                                <div class="coords"
+                                style="padding-left: 10px; padding-right:10px; padding-top:20px; color:white;">
+                                <span>Localización: </span>
+                                <span>Valencia (España)</span>
+                            </div>
+                            <div class="coords"
+                                style="padding-left: 10px; padding-right:10px; padding-top:10px; color:white;">
+                                <span>Email: </span>
+                                <span>maikaworld@gmail.com</span>
+                            </div>
+                                <span class="more" style="color: white;">Licenciada en Bellas Artes</span>
+
+
+                            </div>
+                        </div>
+                        <div class="general">
+                            <h2 class="text-center  mt-4"> Garcia Montava</h2>
+
+                            <div class="coords"
+                                style="padding-left: 10px; padding-right:10px; padding-top:20px; color:black;">
+                                <span>Localización: </span>
+                                <span>Valencia (España)</span>
+                            </div>
+                            <div class="coords"
+                                style="padding-left: 10px; padding-right:10px; padding-top:10px; color:black;">
+                                <span>Email: </span>
+                                <span>maikaworld@gmail.com</span>
+                            </div>
+
+                            <span class="more">Licenciada en Bellas Artes</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <!--<footer class="footer text-center">
+        <div class="container">
+            <div class="row">-->
+    <!-- Footer Location-->
+    <!--<div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Localización</h4>
+                    <p class="lead mb-0">
+                        Valencia (España)
+                    </p>
+                </div>-->
+    <!-- Footer Social Icons-->
+    <!--<div class="col-lg-4 mb-5 mb-lg-0">-->
+    <!-- <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>-->
+    <!--  </div>-->
+    <!-- Footer About Text-->
+    <!--<div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Maika G. Montava</h4>
+                    <p class="lead mb-0">
+                        Ilustradora infanil.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright &copy; MaikaWorld 2022</small></div>
+    </div>
+
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="publicationModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Matemáticas
+                                    experimentales</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-8">
+
+                                <!-- Publication Modal - Image-->
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid rounded mb-5"
+                                            src="assets/img/publications/cubierta_matematicas_experimentales.jpg"
+                                            alt="Cuvierta Matemáticas experimentales" />
+                                    </div>
+
+                                    <div class="col-lg-6">
+
+                                        <!-- Publication Modal - Text-->
+                                        <p class="mb-4">"<span style="  font-weight: 900;">Matemáticas
+                                                experimentales. Actividades manipulativas para visualizar
+                                                conceptos</span>"
+                                            forma parte de la colección Biblioteca de Estímulos Matemáticos. Es una
+                                            colección conjunta de la Real Sociedad Matemática Española y SM. Surge del
+                                            interés por divulgar las matemáticas para un público no necesariamente
+                                            especializado.
+                                        </p>
+                                        <p class="mb-4">Escrito por Javier Falcó e ilustrado por Maika G. Montava, este
+                                            libro expone cinco teorías matemáticas clave acompañando las explicaciones
+                                            teóricas con ilustraciones que consiguen transformar las matemáticas
+                                            abstractas en situaciones cotidianas.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row  portfolio">
+                                    <!-- Publication Mathematics Item 1-->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/concavaconvexa.jpg"
+                                            data-title="Funciones cóncavas y convexas">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/concavaconvexa.jpg"
+                                                alt="Funciones cóncavas y convexas" />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/carbona14.jpg"
+                                            data-title="Medición de la edad de un hueso mediante la técnica de carbono 14.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/carbona14.jpg"
+                                                alt="Medición de la edad de un hueso mediante la técnica de carbono 14." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/derivadas.jpg"
+                                            data-title="Regla de la cadena de derivación.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/derivadas.jpg"
+                                                alt="Regla de la cadena de derivación." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/Carretera-discontinua.png"
+                                            data-title="Discontinuidad.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/Carretera-discontinua.png"
+                                                alt="Discontinuidad." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/dobladoPapel.jpg"
+                                            data-title="Doblado de papel.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/dobladoPapel.jpg"
+                                                alt="Doblado de papel." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/elipsografo.jpg"
+                                            data-title="Elipsógrafo.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/elipsografo.jpg"
+                                                alt="Elipsógrafo." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/koinsberg.jpg"
+                                            data-title="Problema de los puentes de Königsberg.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/koinsberg.jpg"
+                                                alt="Problema de los puentes de Königsberg." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/leyDeEnfriamientoDeNewton.jpg"
+                                            data-title="Ley de enfriamiento de Newton.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/leyDeEnfriamientoDeNewton.jpg"
+                                                alt="Ley de enfriamiento de Newton." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/vendedor.jpg"
+                                            data-title="Problema del vendedor ambulante.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/vendedor.jpg"
+                                                alt="Problema del vendedor ambulante." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/LotkaVolterra.jpg"
+                                            data-title="El modelo Depredador-Presa de Lotka-Volterra.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/LotkaVolterra.jpg"
+                                                alt="El modelo Depredador-Presa de Lotka-Volterra." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/raadas.jpg"
+                                            data-title="El radar hiperbólico.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/raadas.jpg"
+                                                alt="El radar hiperbólico." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="ExperimentosMatematicos"
+                                            href="assets/img/publications/MatExp/vacunas.jpg"
+                                            data-title="Las vacunas y la inmunidad de rebaño.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/MatExp-thumbs/vacunas.jpg"
+                                                alt="Las vacunas y la inmunidad de rebaño." />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+    </div>
 
-    <!-- Fish section  -->
 
-    <section style="padding-top: 85px;">
-        <div class="fullwidth" id="watter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <img src="images/fish/peixos.png" id="fish" class="img-fluid" alt="Maikaworld" />
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="publicationModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                        aria-label="Close"></button></div>
+                <div class="modal-body text-center pb-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Matemáticas
+                                    experimentales</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xl-8">
+
+                                <!-- Publication Modal - Image-->
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6">
+                                        <img class="img-fluid rounded mb-5"
+                                            src="assets/img/publications/llibre-mariola.png" alt="Des de la Mariola" />
+                                    </div>
+
+                                    <div class="col-lg-6">
+
+                                        <!-- Publication Modal - Text-->
+                                        <p class="mb-4">"<span style="  font-weight: 900;">Des de la Mariola</span>"
+                                            es una recopilación autoeditada por Ignacio Reig Ferre e ilustrada por Maika
+                                            G. Montava. Cuenta con un total de 82 cuentos y 144 ilustraciones a color
+                                            que se reparten en 12 libros ilustrados en acuarelas y cuentan las historias
+                                            de la sierra Mariola y sus pueblos. Los relatos se remontan a la década de
+                                            los años cincuenta. Historias de tesoros, universos mágicos, seres
+                                            fantásticos, lugares insólitos... la mayoría de ellas protagonizadas por “El
+                                            tio Pep”, figura enérgica, emprendedora y decidida que se sumerge a un mundo
+                                            lleno de fantasía y misterio.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row  portfolio">
+                                    <!-- Publication Mathematics Item 1-->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-I.jpg"
+                                            data-title="Des de la Mariola I.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-I.jpg"
+                                                alt="Des de la Mariola I." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-II.jpg"
+                                            data-title="Des de la Mariola II.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-II.jpg"
+                                                alt="Des de la Mariola II." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-III.jpg"
+                                            data-title="Des de la Mariola III">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-III.jpg"
+                                                alt="Des de la Mariola III." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-IV.jpg"
+                                            data-title="Des de la Mariola IV.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-IV.jpg"
+                                                alt="Des de la Mariola IV." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-V.jpg"
+                                            data-title="Des de la Mariola V.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-V.jpg"
+                                                alt="Des de la Mariola V." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-VI.jpg"
+                                            data-title="Des de la Mariola VI.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-VI.jpg"
+                                                alt="Des de la Mariola VI." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-VII.jpg"
+                                            data-title="Des de la Mariola VII.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-VII.jpg"
+                                                alt="Des de la Mariola VII." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-VIII.jpg"
+                                            data-title="Des de la Mariola VIII.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-VIII.jpg"
+                                                alt="Des de la Mariola VIII." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-IX.jpg"
+                                            data-title="Des de la Mariola IX.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-IX.jpg"
+                                                alt="Des de la Mariola IX." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-X.jpg"
+                                            data-title="Des de la Mariola X.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-X.jpg"
+                                                alt="Des de la Mariola X." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-XI.jpg"
+                                            data-title="Des de la Mariola XI.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-XI.jpg"
+                                                alt="Des de la Mariola XI." />
+                                        </a>
+                                    </div>
+                                    <!-- Publication Mathematics Item -->
+                                    <div class="col-6 col-xs-4 col-sm-3 col-md-2 mb-5">
+                                        <a class="portfolio-item mx-auto" data-lightbox="DesDeLaMariola"
+                                            href="assets/img/publications/Mariola/Des-de-la-Mariola-XII.jpg"
+                                            data-title="Des de la Mariola XII.">
+                                            <div
+                                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                                        class="fa-solid fa-magnifying-glass-plus fa-3x"></i> </div>
+                                            </div>
+                                            <img class="img-fluid"
+                                                src="assets/img/publications/Mariola-thumbs/Des-de-la-Mariola-XII.jpg"
+                                                alt="Des de la Mariola XII." />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+
+                                <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <i class="fas fa-xmark fa-fw"></i>
+                                    Cerrar ventana
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End of Fish section  -->
+    </div>
 
 
-    <!--fixing the image of the CV-->
-    <script src="js/jquery.sticky-kit.min.js"></script>
-    <!-- Sticky-kit v1.1.2 | WTFPL | Leaf Corcoran 2015 | http://leafo.net-->
-    <script>
-        $("#fixedCVimage").stick_in_parent("parent: aboutme2", "inner_scrolling: false");
-
-
-        $.fn.isOnScreen = function() {
-
-            var win = $(window);
-
-            var viewport = {
-                top: win.scrollTop(),
-                left: win.scrollLeft()
-            };
-            viewport.right = viewport.left + win.width();
-            viewport.bottom = viewport.top + win.height();
-
-            var bounds = this.offset();
-            bounds.right = bounds.left + this.outerWidth();
-            bounds.bottom = bounds.top + this.outerHeight();
-
-            return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
-
-        };
-
-
-
-        $(window).scroll(function() {
-            if ($('#cv3').isOnScreen()) {
-                $('#CVImage').attr('src', 'images/aboutme/curriculum3.png');
-            } else if ($('#cv2').isOnScreen()) {
-                $('#CVImage').attr('src', 'images/aboutme/curriculum2.png');
-            } else if ($('#cv1').isOnScreen()) {
-                $('#CVImage').attr('src', 'images/aboutme/curriculum1.png');
-            }
-        });
-
-    </script>
-
-    <!--End of fixing the image of the CV-->
-    <!-- This defines the carrousel for the books-->
-
-    <script>
-        $('#media').carousel({
-            pause: true,
-            interval: false,
-        })
-
-    </script>
-    <!-- End of Carrousel for the books-->
-
-    <!-- Turnjs for flipping books-->
-
-    <!-- End of Turnjs for flipping books-->
-
-
-    <!-- por the gallery filters -->
-    <script src="js/jquery.mixitup.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- for filtering -->
-    <script>
-        var containerEl = document.querySelector('#hexGrid');
-        var mixer = mixitup(containerEl, {
-            selectors: {
-                control: '[data-mixitup-control]'
-            }
-        });
-
-    </script>
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle="popover"]').popover();
-        });
-
-    </script>
-
-    <!-- for fancybox -->
-    <!-- Add mousewheel plugin (this is optional) -->
-    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-
-    <!-- Add fancyBox -->
-    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
-    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
-
-
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.fancybox').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-        });
-
-        $('#allbutton').ready(function() {
-            $('.fancybox a').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-        });
-
-        $('#Acuarelabutton').click(function() {
-            $('.Acuarela a').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-        });
-
-        $('#LapizesColoresbutton').click(function() {
-            $('.LapizesColores a').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-        });
-
-        $('#Lapizytintabutton').click(function() {
-            $('.LapizyTinta a').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-        });
-
-        $('#pinturabutton').click(function() {
-            $('.Pintura a').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-        });
-
-        $('#informaticasbutton').click(function() {
-            $('#hexGrid > li.Informaticas > .hexIn > a').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-        });
-
-        $('#mixtasbutton').click(function() {
-            $('#hexGrid > li.Mixtas > .hexIn > a').fancybox({
-                openEffect: 'elastic',
-                closeEffect: 'elastic',
-                helpers: {
-                    title: {
-                        type: 'inside'
-                    }
-                }
-            });
-
-        });
-
-    </script>
-
-
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 
 </html>
